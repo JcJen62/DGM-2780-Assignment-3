@@ -1,0 +1,132 @@
+body {
+  background-color: #181818;
+}
+
+#wrapper {
+  margin: 0 auto;
+  width: 1280px;
+  position: relative;
+}
+
+.form-inline {
+  position: absolute;
+  width: 376px;
+  height: 32px;
+  left: 62px;
+  top: 47px;
+}
+
+.input-group-text {
+  height: 38px;
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  background-color: #242424;
+  border: 1px solid #595959;
+  border-right: none;
+}
+
+.searchBar {
+  background: #242424;
+  border: 1px solid #595959;
+  border-left: none;
+  box-sizing: border-box;
+  border-radius: 24px;
+}
+
+.headerNav a {
+  color: #999999;
+  margin-right: 0.5rem;
+}
+
+#navDiv {
+  position: absolute;
+  justify-content: flex-end;
+  display: flex;
+  top: 34px;
+  width: 100%;
+  height: 29px;
+}
+
+.headerNav {
+  display: flex;
+  list-style: none;
+  margin-top: 0.5rem;
+}
+
+.tagNav:hover {
+  color: #ffffff;
+}
+
+#navBody {
+  background-color: #242424;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.midNav {
+  color: #ffffff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.midNav:hover {
+  color: #61443b;
+}
+
+.heroImg {
+  width: 1177px;
+  margin-top: 2rem;
+  margin: auto;
+}
+
+.popBtn {
+  border: none;
+  background-color: #f16535;
+  width: 1177px;
+}
+
+.popBtn:hover {
+  color: #ffffff;
+  background-color: #61443b;
+}
+
+.midBtn {
+  margin-top: 2rem;
+}
+
+#option {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#spooky {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#footerBody {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.modal-content{
+    background-color: #dadada;
+}
+
+.checkout {
+    background-color: #f16535;
+    border-color: #f16535;
+}
+
+.checkout:hover {
+    background-color: #61443b;
+}
+
+.total {
+  margin-right: 13rem;
+}

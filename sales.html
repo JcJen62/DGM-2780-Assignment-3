@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link href="sales.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales</title>
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <header>
+
+
+        <div class="text-center">
+          <img src="Images/Logo.png" class="rounded" alt="..." />
+        </div>
+
+        <form class="form-inline justify-content-start">
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1"><img src="./Images/search.png" /></span>
+            </div>
+            <input type="text" class="form-control searchBar" placeholder="Search Website" aria-label="Username"
+              aria-describedby="basic-addon1" />
+          </div>
+        </form>
+        <div id="navDiv">
+          <ul class="headerNav">
+            <li>
+              <a class="nav-link tagNav" aria-current="page" href="#">Find Store</a>
+            </li>
+            <li>
+              <a class="nav-link tagNav" href="#">My Orders</a>
+            </li>
+            <li>
+              <a class="nav-link tagNav" href="#">My Account</a>
+            </li>
+            <li>
+              <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal"><img
+                  src="Images/Cart.png" /></a>
+            </li>
+          </ul>
+        </div>
+      </header>
+
+      <main>
+        <div id="navBody">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link midNav" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link midNav" href="#">Costumes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link midNav" href="#">Decorations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link midNav">Animatronics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link midNav">Accessories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link midNav">Games</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link midNav">Themes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link midNav">On Sale</a>
+            </li>
+          </ul>
+        </div>
+
+
+        <div id="salesHero">
+          <img src="Images/salesHero.jpg" class="img-fluid" alt="...">
+        </div>
+
+        <div id="containerSales">
+          <div class="card" style="width: 18rem;">
+            <img src="Images/mando.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Check out this cool Mandalorian costume from Star Wars! <br> $50</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="Images/chickens.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Do be a chicken, and get this costume! You wont regret this at all...<br> $80</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="Images/alien.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Get the costume that is out of this world! <br> $55</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="Images/jack.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Check out this cool Jack Skellington custome from Nightmare on Christmas! <br> $50</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="Images/trex.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">This costume is an old classic but still one of the best! <br> $65</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="Images/shark.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Throw this costume on so you can be the best in the sea of costumes! <br> $35</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Modal Shopping cart -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Your Cart:</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="Images/cartItem1.jpeg" class="img-thumbnail" alt="...">
+                <p class="lead">
+                  Men's NASA Employee XL - $50
+                </p>
+
+                <img src="Images/cartItem2.jpeg" class="img-thumbnail" alt="...">
+                <p class="lead">
+                  Men's Dodgeball XL - $50
+                </p>
+
+                <p><small>*All odrers need to be given at least two weeks to arive. Due to current shortages and
+                    shipping restrictions we are advising customers to allow for a two week buffer for their order to
+                    arive.*</small></p>
+              </div>
+              <div class="modal-footer">
+                <p class="lead total">
+                  Total: $100
+                </p>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary checkout">Checkout</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </main>
+
+      <footer>
+        <div id="footerBody">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link midNav" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link midNav" href="#">Costumes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link midNav" href="#">Decorations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link midNav">Animatronics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link midNav">Accessories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link midNav">Games</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link midNav">Themes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link midNav">On Sale</a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"></script>
+  </body>
+
+</html>
