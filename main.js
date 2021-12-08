@@ -1,4 +1,4 @@
-document.querySelector("#logo").addEventListener("click", () => {
+document.querySelector("#logo").addEventListener("mouseover", () => {
   gsap
     .timeline({
       repeat: 0,
