@@ -16,7 +16,7 @@ document.querySelector("#logo").addEventListener("mouseover", () => {
     });
 });
 
-document.querySelector("#option").addEventListener("click", () => {
+document.querySelector("#containerSales").addEventListener("dblclick", () => {
   gsap
     .timeline({
       repeat: 0,
@@ -24,11 +24,11 @@ document.querySelector("#option").addEventListener("click", () => {
         duration: 1,
       },
     })
-    .from("#option", {
+    .from("#containerSales", {
       borderRadius: "100%",
-      x: 80,
+      x: 1000,
     })
-    .to("#option", {
+    .to("#containerSales", {
       borderRadius: "0%",
       x: 0,
       ease: "elastic"
