@@ -16,7 +16,7 @@ document.querySelector("#logo").addEventListener("mouseover", () => {
     });
 });
 
-document.querySelector("#containerSales").addEventListener("dblclick", () => {
+document.querySelector("#salesHero").addEventListener("dblclick", () => {
   gsap
     .timeline({
       repeat: 0,
@@ -24,11 +24,11 @@ document.querySelector("#containerSales").addEventListener("dblclick", () => {
         duration: 1,
       },
     })
-    .from("#containerSales", {
+    .from("#salesHero", {
       borderRadius: "100%",
       x: 1000,
     })
-    .to("#containerSales", {
+    .to("#salesHero", {
       borderRadius: "0%",
       x: 0,
       ease: "elastic"
