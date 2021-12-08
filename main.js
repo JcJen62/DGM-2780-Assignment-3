@@ -16,7 +16,7 @@ document.querySelector("#logo").addEventListener("mouseover", () => {
     });
 });
 
-document.querySelector("#option").addEventListener("mouseover", () => {
+document.querySelector("#option").addEventListener("click", () => {
   gsap
     .timeline({
       repeat: 0,
